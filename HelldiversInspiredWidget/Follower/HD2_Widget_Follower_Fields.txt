@@ -1,0 +1,116 @@
+{
+  "startLevel": {
+    "type": "number",
+    "label": "Starting Level",
+    "value": 1,
+    "min": 1,
+    "step": 1,
+    "group": "XP Settings"
+  },
+  "currentXP": {
+    "type": "number",
+    "label": "Starting XP",
+    "value": 0,
+    "min": 0,
+    "step": 1,
+    "group": "XP Settings"
+  },
+  "xpGoal": {
+    "type": "number",
+    "label": "XP Needed for Next Level",
+    "value": 100,
+    "min": 1,
+    "step": 1,
+    "group": "XP Settings"
+  },
+  "xpFont": {
+    "type": "text",
+    "label": "Lien de la police (TTF/OTF)",
+    "name": "fontURL",
+    "value": "https://ton-lien-direct/FS-Sinclair.ttf",
+    "group": "XP Settings"
+  },
+  "xpSizeText": {
+    "type": "number",
+    "label": "XP Text Size",
+    "name": "xpSizeText",
+    "value": 10,
+    "min": 1,
+    "step": 1,
+    "group": "XP Settings"
+  },
+  "fontName": {
+    "label": "Font",
+    "type": "googleFont",
+    "value": "Montserrat",
+    "group": "Appearance"
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "500",
+    "options": {
+      "300": "Light",
+      "400": "Regular",
+      "500": "Medium",
+      "700": "Bold"
+    },
+    "group": "Appearance"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 20,
+    "min": 8,
+    "step": 1,
+    "group": "Appearance"
+  },
+  "levelTextColor": {
+    "type": "colorpicker",
+    "label": "Level Text Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "Appearance"
+  },
+  "xpTextColor": {
+    "type": "colorpicker",
+    "label": "XP Text Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "Appearance"
+  },
+  "edgeSpacing": {
+    "type": "number",
+    "label": "Edge Spacing",
+    "value": 10,
+    "step": 1,
+    "min": 0,
+    "group": "Appearance"
+  },
+  "barHeight": {
+    "type": "number",
+    "label": "XP Bar Height",
+    "value": 16,
+    "min": 4,
+    "step": 1,
+    "group": "XP Bar"
+  },
+  "barBackground": {
+    "type": "colorpicker",
+    "label": "XP Bar Background",
+    "value": "rgba(74,74,74,1)",
+    "group": "XP Bar"
+  },
+  "barFillColor": {
+    "type": "colorpicker",
+    "label": "XP Fill Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "XP Bar"
+  },
+  "barSpeed": {
+    "type": "number",
+    "label": "XP Bar Animation Speed (ms)",
+    "value": 600,
+    "min": 0,
+    "step": 100,
+    "group": "XP Bar"
+  }
+}

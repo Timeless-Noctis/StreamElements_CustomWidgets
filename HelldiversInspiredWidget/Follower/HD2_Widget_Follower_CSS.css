@@ -1,0 +1,80 @@
+/* Custom Font : FS Sinclair Medium */
+@font-face {
+  font-family: 'FS Sinclair Medium';
+  src: url('https://timeless-noctis.github.io/Fonts-Host_StreamElements/FS%20Sinclair%20Pack/FS%20Sinclair%20Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  color: {{textColor}};
+  overflow: hidden;
+}
+
+.xp-wrapper {
+  width: 250px;
+  position: relative;
+  padding: var(--edgeSpacing);
+}
+
+.username-text {
+  font-family: 'FS Sinclair Medium';
+  font-size: {{fontSize}}px;
+  font-weight: {{fontWeight}};
+  color : {{xpTextColor}};
+
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+.title-text {
+  font-family: 'FS Sinclair Medium';
+  font-size: {{fontSize}}px;
+  font-weight: {{fontWeight}};
+  color : {{xpTextColor}};
+
+  position: absolute;
+  left: 0;
+  top: 24px;
+}
+
+.level-text {
+  font-family: 'FS Sinclair Medium';
+  font-size: {{fontSize}}px;
+  font-weight: {{fontWeight}};
+  color : {{levelTextColor}};
+
+  position: absolute;
+  left: 0;
+  top: 42px;
+}
+
+.xp-text {
+  font-family: 'FS Sinclair Medium';
+  font-size: {{xpSizeText}}px;
+  font-weight: {{fontWeight}};
+  color : {{xpTextColor}};
+
+  position: absolute;
+  right: 0;
+  top: 42px;
+}
+
+.xp-bar {
+  width: 100%;
+  height: {{barHeight}}px;
+
+  position: absolute;
+  left: 0;
+  top: 54px;
+
+  margin-top: 8px;
+  background-color: {{barBackground}};
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.xp-fill {
+  height: 100%;
+  width: 0%;
+  background-color: {{barFillColor}};
+  transition: width {{barSpeed}}ms linear;
+}
